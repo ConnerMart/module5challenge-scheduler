@@ -1,5 +1,5 @@
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 16px;
   line-height: 1;
 }
@@ -11,6 +11,7 @@ textarea {
   color: #000000;
   border-left: 1px solid black;
   padding: 10px;
+  flex-grow: 2;
 }
 
 .jumbotron {
@@ -40,6 +41,9 @@ textarea {
   background-color: #ffffff;
   color: #000000;
   border-top: 1px dashed #000000;
+  flex-basis: 5%;
+  display: flex;
+  align-items: center;
 }
 
 .past {
@@ -63,6 +67,7 @@ textarea {
   border-bottom-right-radius: 15px;
   background-color: #06aed5;
   color: white;
+  flex-basis: 8%;
 }
 
 .saveBtn i:hover {
