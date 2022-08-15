@@ -172,9 +172,67 @@ function setColor5() {
 }
 setColor5();
 
-testbtn = document.querySelector("#saveBtn");
-testbtn.addEventListener("click", function () {
-  console.log("hi");
-  var storageTest = $("#5pm").val();
-  localStorage.setItem("test", storageTest);
+$("#9am").text(localStorage.getItem("9input"));
+$("#10am").text(localStorage.getItem("10input"));
+$("#11am").text(localStorage.getItem("11input"));
+$("#12pm").text(localStorage.getItem("12input"));
+$("#1pm").text(localStorage.getItem("1input"));
+$("#2pm").text(localStorage.getItem("2input"));
+$("#3pm").text(localStorage.getItem("3input"));
+$("#4pm").text(localStorage.getItem("4input"));
+$("#5pm").text(localStorage.getItem("5input"));
+
+btn9 = document.getElementById("9btn");
+btn9.addEventListener("click", function () {
+  var storageSet = $("#9am").val();
+  localStorage.setItem("9input", storageSet);
 });
+//
+btn10 = document.getElementById("10btn");
+btn10.addEventListener("click", function () {
+  var storageSet = $("#10am").val();
+  localStorage.setItem("10input", storageSet);
+});
+//
+btn11 = document.getElementById("11btn");
+btn11.addEventListener("click", function () {
+  var storageSet = $("#11am").val();
+  localStorage.setItem("11input", storageSet);
+});
+//
+btn12 = document.getElementById("12btn");
+btn12.addEventListener("click", function () {
+  var storageSet = $("#12pm").val();
+  localStorage.setItem("12input", storageSet);
+});
+//
+btn1 = document.getElementById("1btn");
+btn1.addEventListener("click", function () {
+  var storageSet = $("#1pm").val();
+  localStorage.setItem("1input", storageSet);
+});
+//
+btn2 = document.getElementById("2btn");
+btn2.addEventListener("click", function () {
+  var storageSet = $("#2pm").val();
+  localStorage.setItem("2input", storageSet);
+});
+//
+btn3 = document.getElementById("3btn");
+btn3.addEventListener("click", function () {
+  var storageSet = $("#3pm").val();
+  localStorage.setItem("3input", storageSet);
+});
+//
+btn4 = document.getElementById("4btn");
+btn4.addEventListener("click", function () {
+  var storageSet = $("#4pm").val();
+  localStorage.setItem("4input", storageSet);
+});
+//
+btn5 = document.getElementById("5btn");
+btn5.addEventListener("click", function () {
+  var storageSet = $("#5pm").val();
+  localStorage.setItem("5input", storageSet);
+});
+//
