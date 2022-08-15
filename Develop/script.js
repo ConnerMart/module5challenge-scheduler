@@ -171,3 +171,10 @@ function setColor5() {
   }
 }
 setColor5();
+
+testbtn = document.querySelector("#saveBtn");
+testbtn.addEventListener("click", function () {
+  console.log("hi");
+  var storageTest = $("#5pm").val();
+  localStorage.setItem("test", storageTest);
+});
