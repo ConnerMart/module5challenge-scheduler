@@ -7,4 +7,4 @@ By entering tasks into the hour blocks and clicking the corresponding Save butto
 ![screenshot of blank scheduler](./Develop/Assets/screenshot.png)
 
 Link to deployed application:
-https://connermart.github.io/module5challenge-scheduler/
+https://connermart.github.io/work-day-scheduler/
